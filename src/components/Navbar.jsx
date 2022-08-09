@@ -1,9 +1,9 @@
-import { Box, Button, Container, Flex, IconButton, Image, Input, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
-import React from "react";
-import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
-import { BsSearch } from "react-icons/bs";
-import { FiKey } from "react-icons/fi";
+import { Box, Button, Flex, IconButton, Image, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { useRouter } from "next/router";
+import React from "react";
+import { BsSearch } from "react-icons/bs";
+import { FcAbout, FcHome, FcMenu } from "react-icons/fc";
+import { FiKey } from "react-icons/fi";
 
 const Navbar = () => {
   const router = useRouter();

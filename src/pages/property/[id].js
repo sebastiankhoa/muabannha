@@ -1,17 +1,16 @@
-import { Box, Divider, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import { FaBed, FaBath } from "react-icons/fa";
-import { BsGridFill, BsFillArchiveFill, BsFillForwardFill } from "react-icons/bs";
-import { GoVerified } from "react-icons/go";
+import { BsFillArchiveFill, BsFillForwardFill, BsGridFill } from "react-icons/bs";
+import { FaBath, FaBed } from "react-icons/fa";
 import { GiPriceTag } from "react-icons/gi";
 import { MdChair } from "react-icons/md";
 
 import Slideshow from "../../components/Slideshow";
-import { fetchApi, baseUrl } from "../../utils/fetchAPI";
+import { baseUrl, fetchApi } from "../../utils/fetchAPI";
 import numberWithCommas from "../../utils/function";
 
 const PropertyDetail = ({ propertyDetail }) => {
-  console.log({ propertyDetail });
+  // console.log({ propertyDetail });
   const { price, rentFrequency, rooms, title, baths, area, agency, isVerified, description, type, purpose, furnishingStatus, amenities, photos } =
     propertyDetail;
 

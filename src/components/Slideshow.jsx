@@ -1,6 +1,7 @@
 import { Flex, Image } from "@chakra-ui/react";
 import React from "react";
-import { Slide, Fade } from "react-slideshow-image";
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 
 const Slideshow = ({ photos }) => {
   console.log({ photos });

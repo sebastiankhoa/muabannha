@@ -1,4 +1,4 @@
-import { Container, Divider, Flex } from "@chakra-ui/react";
+import { Divider, Flex } from "@chakra-ui/react";
 import Head from "next/head";
 import Banner from "../components/Banner";
 import PropertyCard from "../components/PropertyCard";
